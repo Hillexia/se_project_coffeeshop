@@ -1,0 +1,30 @@
+.about {
+  background-color: #0a2850;
+  color: #ffffff;
+  position: relative;
+}
+
+.about__title {
+  max-width: 251px;
+  position: absolute;
+  left: 80px;
+  margin: 100px 0 0;
+}
+
+.about__content {
+  max-width: 660px;
+  position: absolute;
+  right: 80px;
+  margin: 119px 0 173px;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+}
