@@ -1,30 +1,68 @@
 .about {
   background-color: #0a2850;
-  color: #ffffff;
+  padding: 100px 80px 173px;
   position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__title {
   max-width: 251px;
-  position: absolute;
-  left: 80px;
-  margin: 100px 0 0;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
   max-width: 660px;
-  position: absolute;
-  right: 80px;
-  margin: 119px 0 173px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
 }
 
 .about__paragraph {
-  margin: 0 0 20px;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__circle {
   width: 426px;
   height: 426px;
-  background-color: #2f80ed;
   border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
