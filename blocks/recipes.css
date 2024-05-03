@@ -15,12 +15,11 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0;
-  max-width: 508px;
+  max-width: 580px;
 }
 
 .recipes__subtitle {
-  font-family: "Noto Serif";
-  font-style: italic;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -46,4 +45,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 0;
 }

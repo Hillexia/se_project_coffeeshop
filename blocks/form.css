@@ -6,6 +6,7 @@
   display: grid;
   border: none;
   padding: 0;
+  margin: 0;
 }
 
 .form__label {
@@ -19,6 +20,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -30,11 +32,12 @@
   color: #838383;
   padding: 12px;
   box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .form__button {
   height: 60px;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 100%;
   margin-bottom: 32px;
   font-family: Inter;
@@ -43,11 +46,12 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #ffffff;
+  border-style: none;
+  transition: 0.1s linear;
 }
 
 .form__button:hover {
   opacity: 70%;
-  transition: opacity 0.4s ease;
 }
 
 .form__checkbox {
