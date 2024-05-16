@@ -14,3 +14,10 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 For me, this was a difficult project. I have lots to learn and lots to practice such as animations, the CSS line for "position" and its definition. That being said, i want to continue to find ways to continue to pratice this and apply it to my future project such as making dummy websites with what i have learned so far. At the moment, i cannot find an idea of improvement for this project as i feel this project challenged me very well in all i have learned in this sprint.
+
+##About this project:
+With this project, we got more in depth with BEM and adding more things to our page such as fonts, videos, forms and more transitions. You can see a lot of it goes into action!
+
+You can view the webpage here: https://hillexia.github.io/se_project_coffeeshop/
+
+Thank you :)
